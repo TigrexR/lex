@@ -1,0 +1,13 @@
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.master.com:7001/eureka/,http://eureka.slaveOne.com:7002/eureka/,http://eureka.slaveTwo.com:7003/eureka/
+  instance:
+    instance-id: templateProvider
+    prefer-ip-address: true #访问路径可以显示IP地址
+spring:
+  datasource:
+    name: employee
+
