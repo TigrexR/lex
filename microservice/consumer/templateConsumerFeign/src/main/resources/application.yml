@@ -1,0 +1,7 @@
+server:
+  port: 8002
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka.master.com:7001/eureka/,http://eureka.slaveOne.com:7002/eureka/,http://eureka.slaveTwo.com:7003/eureka/
