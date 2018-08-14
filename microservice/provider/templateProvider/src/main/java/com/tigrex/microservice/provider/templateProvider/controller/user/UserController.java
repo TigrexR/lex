@@ -30,10 +30,11 @@ public class UserController {
      */
     @GetMapping(value = "/getUserInfoByUserId")
     @Transactional(readOnly = true)
-    public UserVo getUserInfoByUserId(User user){
+    public UserVo getUserInfoByUserId(UserVo userVo){
+        User user = new User();
+        user.setId(userVo.getId());
         EntityWrapper<User> userEntityWrapper = new EntityWrapper<>(user);
         user = userService.selectOne(userEntityWrapper);
-        UserVo userVo = new UserVo();
         userVo.setId(user.getId());
         return userVo;
     }

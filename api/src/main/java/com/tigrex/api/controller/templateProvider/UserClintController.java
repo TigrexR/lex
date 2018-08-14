@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface UserClintController {
 
     @GetMapping(value = "/getUserInfoByUserId")
-    public UserVo getUserInfoByUserId(Integer userId);
+    public UserVo getUserInfoByUserId(UserVo userVo);
 
 }

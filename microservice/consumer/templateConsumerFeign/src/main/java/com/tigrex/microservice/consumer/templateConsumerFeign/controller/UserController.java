@@ -21,7 +21,9 @@ public class UserController {
      */
     @GetMapping(value = "/getUserInfoByUserId")
     public UserVo getUserInfoByUserId(Integer userId){
-        return userClintController.getUserInfoByUserId(userId);
+        UserVo userVo = new UserVo();
+        userVo.setId(userId);
+        return userClintController.getUserInfoByUserId(userVo);
     }
 
 }
