@@ -15,6 +15,7 @@
 
     <modules>
         <module>templateProvider</module>
+        <module>shiro</module>
         <module>employee</module>
         <module>member</module>
         <module>good</module>
