@@ -13,6 +13,7 @@
 	--shiro
 	--spring
 	--springmvc
+	--druid
 	--ActiveMQ（后续实现集成RibbonMQ）
 
 --springCloud版本1.4.5.RELEASE
@@ -23,5 +24,6 @@
 
 
 --服务部署
+	--maven
 	--jetty
 	--jdk10
