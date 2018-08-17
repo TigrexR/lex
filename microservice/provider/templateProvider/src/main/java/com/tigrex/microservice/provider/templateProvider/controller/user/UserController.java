@@ -25,7 +25,7 @@ public class UserController {
 
     /**
      * 通过人员id获取人员信息
-     * @param user
+     * @param userVo
      * @return
      */
     @GetMapping(value = "/getUserInfoByUserId")

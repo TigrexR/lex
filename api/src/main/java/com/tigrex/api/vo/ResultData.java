@@ -1,4 +1,4 @@
-package com.tigrex.api.vo.templateProvider;
+package com.tigrex.api.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
