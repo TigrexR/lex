@@ -15,6 +15,7 @@
 	--springmvc
 	--druid
 	--ActiveMQ（后续实现集成RibbonMQ）
+	--elasticSearch(查询关键数据，高频数据，数据库中需要配置一份，elastic中也许要配置一份，定时维护)
 
 --springCloud版本1.4.5.RELEASE
 	--eureka
